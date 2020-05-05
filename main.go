@@ -128,7 +128,7 @@ func setupRoutes() {
 	dbconexion, err = sql.Open("mysql", "root@tcp(localhost:3306)/marcaciones")
 
 	if err != nil {
-		fmt.Println("error al abrir la base de datos")
+		fmt.Println("error al abrir la base de datoss")
 		panic(err.Error())
 	}
 
