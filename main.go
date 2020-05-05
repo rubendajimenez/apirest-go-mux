@@ -125,7 +125,7 @@ func getMarcacion(w http.ResponseWriter, r *http.Request) {
 
 func setupRoutes() {
 
-	dbconexion, err = sql.Open("mysql", "root@tcp(localhost:3306)/marcaciones")
+	dbconexion, err = sql.Open("mysql", "root:Asd123**@tcp(localhost:3306)/marcaciones")
 
 	if err != nil {
 		fmt.Println("error al abrir la base de datoss")
